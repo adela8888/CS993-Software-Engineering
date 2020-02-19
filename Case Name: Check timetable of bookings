@@ -1,0 +1,32 @@
+Case Name: Check timetable of bookings
+
+Triggering Event:
+
+User selects button to for Timetable (located in landing page).
+
+Scenario Description:
+
+User presses button, will be taken to new page where TimeTable of bookings
+specific to the user is displayed;
+
+. May be worth considering if TimeTable will be interactive, e.g. interacting
+  with specific appointments will take the user to a pop up, details appointment
+  specifics/further description.
+
+
+Main Actor(s): Users (Non-Admin)
+
+Precondition(s):
+User must have appointments booked in specifically for them
+Post condition(s):
+Users Timetable at the current date is displayedTBC
+
+Main Path:
+. User on Landing Page
+. Presses Timetable button
+. TimeTable is displayed
+
+Alternative Path:
+. User has no commitments today, error message stating that they have no
+  appointments (projects/tasks) currently is displayed (possibly indicate that it is going to
+  display the next appointment the user has assigned to them in the future)
