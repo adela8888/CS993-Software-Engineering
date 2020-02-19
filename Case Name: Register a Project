@@ -1,0 +1,31 @@
+Case Name: Register a Project/Task
+
+Triggering Event:
+
+User selects button to register project (located in landing page), option will
+also be available from timetable of bookings.
+
+Scenario Description:
+
+User presses button, pop up page with fields that take information relating to
+the new booking;
+•	Type (Project/appointment)
+•	Date
+•	Time
+•	Address
+•	Project details/ description
+•	Assigned to (should this be drop down containing all available users for bookings)
+
+
+Main Actor(s): Users (Admin) TBA with regards to other users and what this looks like
+
+Precondition(s):
+TBC
+Post condition(s):
+TBC
+Arrives back at login page
+TBC
+Main Path:
+TBC
+Alternative Path:
+TBC

@@ -1,0 +1,34 @@
+Case Name: Assign users to projects 
+
+Triggering Event:
+
+Admin selects button to assign a user or users to a project located at project page.
+
+Scenario Description:
+
+Admin presses button, pop up page with a drop down containing all available users for bookings. Admin  can assign one or multiple users to one projects. 
+
+Main Actor(s): Admins
+
+Precondition(s):
+
+A user is an admin and a project has been registered.
+
+Post condition(s):
+
+Admin lands in the project page. Chosen users are assigned to a project.
+
+Main Path:
+
+. Admin at the project page
+. Clicks on selected project
+. Lands at the page of the project selected
+. Clicks on the button 'assign user(s)'
+. Pop up page with a drop down containing all available users for bookings
+. Admin chooses one or more users to assign to the project
+. Clicks on the confirmation button 
+. The pop up disappears
+. Admin can see the project page
+
+Alternative Path:
+TBA

@@ -1,0 +1,38 @@
+Case Name: Logout
+
+Triggering Event:
+
+User input/ TTL runs out
+
+Scenario Description:
+
+User elects to log out of the application – this is achieved via settings button
+in the corner  that when pressed, will display a sub-menu of options in which
+‘Log-out’ will be present.
+
+N.B. If TTL is elected as a design feature, this will also contribute to the
+logout user case.
+
+
+Main Actor(s): Users (all)
+
+Precondition(s):
+
+User must be logged in, TTL  reaches 0
+
+Post condition(s):
+
+Arrives back at login page
+
+Main Path:
+
+. User at landing page
+. Elects options button (placement to be elected)
+. Elect's 'Log Out' button on options sub-menu
+. Arrives at Login page
+
+
+Alternative Path:
+
+No Network Connection – Notification highlighting this is displayed to the user.
+(Possibly taken to export to calendar feature.

@@ -1,0 +1,146 @@
+User Cases - Software Engineering
+
+Case Name: Login
+
+Triggering Event:
+
+Application is started for first time, or after account TTL (Time To Live) has
+ran down.
+
+Scenario Description:
+
+User logs in to application via landing (home) page, fields for taking username
+and password. Options for beginning password recovery should also be present
+
+Main Actor(s): Users
+
+Precondition(s):
+
+(Unsure as to if users can register to utilise the service independently or if
+it is going to be sold to business and pre-installed) Registered User enters
+details into appropriate fields for username and password.
+
+Post condition(s):
+
+User arrives at landing page
+
+Main Path:
+
+. User at login page
+. Enters username and password in to appropriate fields
+. Presses enter button
+. Arrives at landing page
+
+
+Alternative Path:
+
+Incorrect details entered; user notified of this through red box highlighting
+incorrect details. After a set number of failed attempts, the account is locked
+and it will require reauthorisation through the answering of security questions
+--------------------------------------------------------------------------------
+Case Name: Logout
+
+Triggering Event:
+
+User input/ TTL runs out
+
+Scenario Description:
+
+User elects to log out of the application – this is achieved via settings button
+in the corner  that when pressed, will display a sub-menu of options in which
+‘Log-out’ will be present.
+
+N.B. If TTL is elected as a design feature, this will also contribute to the
+logout user case.
+
+
+Main Actor(s): Users (all)
+
+Precondition(s):
+
+User must be logged in, TTL  reaches 0
+
+Post condition(s):
+
+Arrives back at login page
+
+Main Path:
+
+. User at landing page
+. Elects options button (placement to be elected)
+. Elect's 'Log Out' button on options sub-menu
+. Arrives at Login page
+
+
+Alternative Path:
+
+No Network Connection – Notification highlighting this is displayed to the user.
+(Possibly taken to export to calendar feature.
+--------------------------------------------------------------------------------
+Case Name: Register a Project/Task
+
+Triggering Event:
+
+User selects button to register project (located in landing page), option will
+also be available from timetable of bookings.
+
+Scenario Description:
+
+User presses button, pop up page with fields that take information relating to
+the new booking;
+•	Type (Project/appointment)
+•	Date
+•	Time
+•	Address
+•	Project details/ description
+•	Assigned to (should this be drop down containing all available users for bookings)
+
+
+Main Actor(s): Users (Admin) TBA with regards to other users and what this looks like
+
+Precondition(s):
+TBC
+Post condition(s):
+TBC
+Arrives back at login page
+TBC
+Main Path:
+TBC
+Alternative Path:
+TBC
+--------------------------------------------------------------------------------
+
+Case Name: Check timetable of bookings
+
+Triggering Event:
+
+User selects button to for Timetable (located in landing page).
+
+Scenario Description:
+
+User presses button, will be taken to new page where TimeTable of bookings
+specific to the user is displayed;
+
+. May be worth considering if TimeTable will be interactive, e.g. interacting
+  with specific appointments will take the user to a pop up, details appointment
+  specifics/further description.
+
+
+Main Actor(s): Users (Non-Admin)
+
+Precondition(s):
+User must have appointments booked in specifically for them
+Post condition(s):
+Users Timetable at the current date is displayedTBC
+
+Main Path:
+. User on Landing Page
+. Presses Timetable button
+. TimeTable is displayed
+
+Alternative Path:
+. User has no commitments today, error message stating that they have no
+  appointments (projects/tasks) currently is displayed (possibly indicate that it is going to
+  display the next appointment the user has assigned to them in the future)
+
+  

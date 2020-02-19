@@ -1,0 +1,37 @@
+Case Name: Login
+
+Triggering Event:
+
+Application is started for first time, or after account TTL (Time To Live) has
+ran down.
+
+Scenario Description:
+
+User logs in to application via landing (home) page, fields for taking username
+and password. Options for beginning password recovery should also be present
+
+Main Actor(s): Users
+
+Precondition(s):
+
+(Unsure as to if users can register to utilise the service independently or if
+it is going to be sold to business and pre-installed) Registered User enters
+details into appropriate fields for username and password.
+
+Post condition(s):
+
+User arrives at landing page
+
+Main Path:
+
+. User at login page
+. Enters username and password in to appropriate fields
+. Presses enter button
+. Arrives at landing page
+
+
+Alternative Path:
+
+Incorrect details entered; user notified of this through red box highlighting
+incorrect details. After a set number of failed attempts, the account is locked
+and it will require reauthorisation through the answering of security questions
