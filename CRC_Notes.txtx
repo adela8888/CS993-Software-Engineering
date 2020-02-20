@@ -1,0 +1,38 @@
+Week 5 - Tutorial:
+
+N.B. Check the following link:
+
+https://github.com/alextselegidis/easyappointments
+
+Open Source appointment booker, may be useful for google sync (this could
+be a possible solution for offline functionality if we are unable to get around
+this by other means)
+
+Link below, outlines object oriented design structure:
+
+https://www.tutorialride.com/software-architecture-and-design/object-oriented-architecture.htm
+
+Creating CRC cards for group project:
+--------------------------------------------------------------------------------
+Class:
+Admin - Subclass of User
+--------------------------------------------------------------------------------
+Responsibilities:
+Register user Accounts(2nd prio)
+Assign users to projects
+Maintains Time Table -
+  Can Register tasks - Admins can only register task
+  Edit the project
+  Delete the project
+  Create project
+  Inherit User Responsibility (consideration) 
+  Permissions relating to view access (consideration)
+  TBA
+--------------------------------------------------------------------------------
+Collaborators:
+timeTable
+Appointments (Projects/ Tasks)
+Users (Staff child class)
+
+
+--------------------------------------------------------------------------------
