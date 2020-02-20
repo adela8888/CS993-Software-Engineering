@@ -36,3 +36,22 @@ Users (Staff child class)
 
 
 --------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Class:
+Timetable
+--------------------------------------------------------------------------------
+Responsibilities:
+Retrieves project data to be displayed to user
+Retrieves task data to be displayed to user
+View existing projects ( start date - deadline, number of users assigned, tasks completed )
+View users assigned to projects
+View tasks ( start date - deadline, number of users assigned, time booked against task by users )
+View users assigned to tasks
+View completed tasks and projects and each users contribution to this
+--------------------------------------------------------------------------------
+Collaborators:
+Users
+Projects
+Tasks
+--------------------------------------------------------------------------------
